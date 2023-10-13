@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A523F642AD88D39002C4EB7 /* ViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A523F632AD88D39002C4EB7 /* ViewControllerView.swift */; };
+		2A523F662AD88D74002C4EB7 /* ViewControllerQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A523F652AD88D74002C4EB7 /* ViewControllerQuiz.swift */; };
 		2A6AB5762A9F8DF7007A0C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AB5752A9F8DF7007A0C62 /* AppDelegate.swift */; };
 		2A6AB5782A9F8DF7007A0C62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AB5772A9F8DF7007A0C62 /* SceneDelegate.swift */; };
 		2A6AB57A2A9F8DF7007A0C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AB5792A9F8DF7007A0C62 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A523F632AD88D39002C4EB7 /* ViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerView.swift; sourceTree = "<group>"; };
+		2A523F652AD88D74002C4EB7 /* ViewControllerQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerQuiz.swift; sourceTree = "<group>"; };
 		2A6AB5722A9F8DF7007A0C62 /* creativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = creativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6AB5752A9F8DF7007A0C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A6AB5772A9F8DF7007A0C62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +108,9 @@
 				2A6AB5752A9F8DF7007A0C62 /* AppDelegate.swift */,
 				2A6AB5772A9F8DF7007A0C62 /* SceneDelegate.swift */,
 				2A6AB5792A9F8DF7007A0C62 /* ViewController.swift */,
+				2A523F632AD88D39002C4EB7 /* ViewControllerView.swift */,
 				2A6AB57B2A9F8DF7007A0C62 /* Main.storyboard */,
+				2A523F652AD88D74002C4EB7 /* ViewControllerQuiz.swift */,
 				2A6AB5812A9F8DF9007A0C62 /* Assets.xcassets */,
 				2A6AB5832A9F8DF9007A0C62 /* LaunchScreen.storyboard */,
 				2A6AB5862A9F8DF9007A0C62 /* Info.plist */,
@@ -198,6 +204,7 @@
 				TargetAttributes = {
 					2A6AB5712A9F8DF7007A0C62 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1500;
 					};
 					2A6AB58A2A9F8DF9007A0C62 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -262,7 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A6AB5802A9F8DF7007A0C62 /* creativeApp.xcdatamodeld in Sources */,
+				2A523F662AD88D74002C4EB7 /* ViewControllerQuiz.swift in Sources */,
 				2A6AB57A2A9F8DF7007A0C62 /* ViewController.swift in Sources */,
+				2A523F642AD88D39002C4EB7 /* ViewControllerView.swift in Sources */,
 				2A6AB5762A9F8DF7007A0C62 /* AppDelegate.swift in Sources */,
 				2A6AB5782A9F8DF7007A0C62 /* SceneDelegate.swift in Sources */,
 			);
@@ -439,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -456,6 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = clc.creativeApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
