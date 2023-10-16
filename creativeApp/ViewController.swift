@@ -5,8 +5,8 @@
 //  Created by WILLIAM COX on 8/30/23.
 //
 
-protocol newStudent {
-    func addStudent()
+protocol ViewControllerDel {
+    func changeName(_ s1 : Student)
 }
 
 
@@ -14,13 +14,13 @@ protocol newStudent {
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, ViewControllerDel {
+
+    
 
     var students : [Student] = []
     
-    
-    
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -40,9 +40,19 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let nvc = segue.destination as! ViewControllerView
-        nvc.students1 = students
-
+        if segue.identifier == "toView" {
+            let nvc = segue.destination as! ViewControllerView
+            nvc.students1 = students
+            nvc.delegate = self
+        } else if segue.identifier == "toQuiz" {
+            let nvc = segue.destination as! ViewControllerQuiz
+            nvc.students = students
+            nvc.delegate = self
+        }
+    }
+    
+    func changeName(_ s1: Student) {
+        students.append(s1)
     }
     
     

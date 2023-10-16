@@ -68,15 +68,15 @@ class ViewControllerView: UIViewController {
         let studentGrade = String(ratingInput.text!)
         
         if studentGrade == "A" {
-            
+            delegate.changeName(Student(name: studentName, age: studentAge!, liamRating: grade.A))
         } else if studentGrade == "B" {
-            
+            delegate.changeName(Student(name: studentName, age: studentAge!, liamRating: grade.B))
         } else if studentGrade == "C" {
-            
+            delegate.changeName(Student(name: studentName, age: studentAge!, liamRating: grade.C))
         } else if studentGrade == "D" {
-            
+            delegate.changeName(Student(name: studentName, age: studentAge!, liamRating: grade.D))
         } else {
-            
+            delegate.changeName(Student(name: studentName, age: studentAge!, liamRating: grade.F))
         }
     }
     
