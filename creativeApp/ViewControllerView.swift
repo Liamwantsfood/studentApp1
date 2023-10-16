@@ -40,7 +40,7 @@ class ViewControllerView: UIViewController {
             spot = 0
             nameLabel.text = students1[spot].name
             ageLabel.text = "\(students1[spot].age)"
-            
+            ratingLabel.text = "\(students1[spot].liamRating)"
         }
     }
     
