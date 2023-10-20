@@ -39,6 +39,10 @@ class ViewController: UIViewController, ViewControllerDel {
         performSegue(withIdentifier: "toView", sender: self)
     }
     
+    @IBAction func toTable(_ sender: Any) {
+        performSegue(withIdentifier: "toTable", sender: self)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toView" {
             let nvc = segue.destination as! ViewControllerView
@@ -48,6 +52,10 @@ class ViewController: UIViewController, ViewControllerDel {
             let nvc = segue.destination as! ViewControllerQuiz
             nvc.students = students
             nvc.delegate = self
+        } else if segue.identifier == "toTable" {
+            let nvc = segue.destination as! ViewControllerTable
+            nvc.delegate = self
+            nvc.tableStudents = students
         }
     }
     

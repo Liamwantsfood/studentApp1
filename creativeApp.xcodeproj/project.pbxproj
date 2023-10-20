@@ -19,6 +19,7 @@
 		2A6AB5902A9F8DF9007A0C62 /* creativeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AB58F2A9F8DF9007A0C62 /* creativeAppTests.swift */; };
 		2A6AB59A2A9F8DF9007A0C62 /* creativeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AB5992A9F8DF9007A0C62 /* creativeAppUITests.swift */; };
 		2A6AB59C2A9F8DF9007A0C62 /* creativeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AB59B2A9F8DF9007A0C62 /* creativeAppUITestsLaunchTests.swift */; };
+		2AF86DAE2AE2C24500486D85 /* ViewControllerTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF86DAD2AE2C24500486D85 /* ViewControllerTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2A6AB5952A9F8DF9007A0C62 /* creativeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = creativeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6AB5992A9F8DF9007A0C62 /* creativeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creativeAppUITests.swift; sourceTree = "<group>"; };
 		2A6AB59B2A9F8DF9007A0C62 /* creativeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creativeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AF86DAD2AE2C24500486D85 /* ViewControllerTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				2A6AB5792A9F8DF7007A0C62 /* ViewController.swift */,
 				2A523F632AD88D39002C4EB7 /* ViewControllerView.swift */,
 				2A6AB57B2A9F8DF7007A0C62 /* Main.storyboard */,
+				2AF86DAD2AE2C24500486D85 /* ViewControllerTable.swift */,
 				2A523F652AD88D74002C4EB7 /* ViewControllerQuiz.swift */,
 				2A6AB5812A9F8DF9007A0C62 /* Assets.xcassets */,
 				2A6AB5832A9F8DF9007A0C62 /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 			files = (
 				2A6AB5802A9F8DF7007A0C62 /* creativeApp.xcdatamodeld in Sources */,
 				2A523F662AD88D74002C4EB7 /* ViewControllerQuiz.swift in Sources */,
+				2AF86DAE2AE2C24500486D85 /* ViewControllerTable.swift in Sources */,
 				2A6AB57A2A9F8DF7007A0C62 /* ViewController.swift in Sources */,
 				2A523F642AD88D39002C4EB7 /* ViewControllerView.swift in Sources */,
 				2A6AB5762A9F8DF7007A0C62 /* AppDelegate.swift in Sources */,

@@ -70,6 +70,7 @@ class ViewControllerQuiz: UIViewController {
     
     func newStudent() {
         var randomStu2 = Int.random(in: 0..<students.count)
+        randomStu = randomStu2
         let random = Int.random(in: 0..<2)
         chosenStudent = students[randomStu2].name
         randomName1 = students[Int.random(in: 0..<students.count)].name
